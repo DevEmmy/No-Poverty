@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Auth from './Components/Auth';
-import Main from './Components/Main';
+import LandingPage from './Components/LandingPage/LandingPage';
+
 
 function App() {
   return (
     <>
-      {/* <Auth />
-      <Main /> */}
-      
+        <LandingPage />
     </>
   );
 }
