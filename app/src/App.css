@@ -117,7 +117,7 @@
 /* Why style */
 .why_compo{
     padding: 100px;
-    background-color: rgb(200,200,200);
+    background-color: rgba(200,200,200,0.3);
 }
 
 .why_compo > h1{
@@ -147,20 +147,76 @@
     padding: 20px 0 0;
 }
 
+
+/* Help Style */
 .help_compo{
     width: 60%;
-    margin: 50px auto;
+    margin: 100px auto;
     text-align: center;
 }
 
 .help_options{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 0 30px;
+    margin:50px 120px;
 }
 
 .help_option{
     padding: 16px 20px;
     border: 2px solid black;
+    transition: .5s;
+}
+
+.help_option:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer_compo{
+    background-color: black;
+    color: white;
+    padding: 60px 100px;
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    gap: 100px;
+}
+
+.footer_1 > h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer_1 > h3{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.footer_2{
+    display: grid;
+    gap: 10px;
+}
+
+.footer_2 > .nm_item{
+    cursor: pointer;
+}
+
+/* Auth Compo */
+.auth_options{
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 50px;
+}
+
+.auth_option{
+    cursor: pointer;
+}
+
+.auth_option:hover{
+    border-bottom: 2px solid black;
 }

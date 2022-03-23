@@ -1,11 +1,13 @@
 import './App.css';
+import Auth from './Components/AuthFolder/Auth';
 import LandingPage from './Components/LandingPage/LandingPage';
 
 
 function App() {
   return (
     <>
-        <LandingPage />
+        {/* <LandingPage /> */}
+        <Auth />
     </>
   );
 }
